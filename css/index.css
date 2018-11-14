@@ -82,3 +82,21 @@
   #gotop:hover{
     background-color: darkgray;
   }
+  
+  * {box-sizing: border-box}
+  
+  .container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+  }
+  
+  .html {width: 80%; background-color: gray;}
+  .css {width: 70%; background-color: gray;}
+  .js {width: 85%; background-color:gray;}
+  .python {width: 90%; background-color: gray;}
