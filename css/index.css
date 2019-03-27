@@ -1,22 +1,39 @@
-.Neighbourhood{
-    background-image: url("https://vectortoons.com/wp-content/uploads/2016/03/a-suburban-neighborhood-background.jpg");
+.navbar-default{
+  background-color: white;
+  color:black ;
+  height: 60px;
+  z-index:1;
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.News{
+    background-image: url("http://www.3x1.com/wp-content/uploads/2017/07/news.jpg");
     background-repeat: no-repeat;
     background-size: contain;
   
   }
-  .Watchlist{
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/92/94/3257e49e3816e6a.jpg")
+  .Rate{
+    background-image: url("https://www.accomnews.com.au/wp-content/uploads/2017/07/AdobeStock_97870934-660x330.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   
-  .shopify{
-    background-image: url("https://img.freepik.com/free-photo/order-food-table-empty-background_1253-744.jpg?size=338&ext=jpg");
+  .Neighbourhood{
+    background-image: url("https://nhw.com.au/wp-content/uploads/2017/11/nhw-logo-full.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .gram{
-    background-image: url("https://fischerinstitute.com/wp-content/uploads/2013/05/instagram-background.jpg");
+    background-image: url("https://www.pngkey.com/png/detail/396-3969171_new-instagram-updates-good-and-probably-bad-news.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     }
   .navbar-inverse{
     height: 100px;
@@ -58,13 +75,23 @@
     width:200px;
   }
   .intro {
-   background-image: url("https://cdn-images-1.medium.com/max/2000/1*ZeixM2OCyy_xUEKMnSp_bQ.png");
+   background-image: url("https://cdn-images-1.medium.com/max/1600/0*TDuYHwIBvClPXrgk.");
    height: 600px;
-   width:100%;
+   max-width: 100%;
+   margin-right: 0;
    margin-top: -35px;
+   background-size: cover;
+  }
+  
+  .contact .col-md-4 a{
+    font-size: 60px;
+    background-color: #EAEAEA;
+    border-radius: 50%;
+    padding: 30px;
+    color: #444;
   }
   #footer{
-    background-color: black;
+    background-color:black;
     height:250px;
   }
   #gotop{
@@ -98,5 +125,13 @@
     padding: 10px;
     color: white;
   }
+  html {
+    position: relative;
+    min-height: 100%;
+  }
   
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 160px;
+  }
 
